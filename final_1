@@ -12,9 +12,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings
 
-warnings.filterwarnings('ignore')
 plt.style.use('ggplot')
-
 
 from sklearn.base import BaseEstimator, TransformerMixin, RegressorMixin, clone
 from sklearn.preprocessing import LabelEncoder
